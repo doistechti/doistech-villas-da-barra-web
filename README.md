@@ -38,6 +38,16 @@ Build de produção:
 npm run build
 ```
 
+## Deploy
+
+O projeto está preparado para publicação automática no **GitHub Pages** por meio do workflow `.github/workflows/deploy-pages.yml`.
+
+Todo push na branch `main` dispara o build do Vite e o deploy da pasta `dist`.
+
+Site esperado:
+
+`https://doistechti.github.io/doistech-villas-da-barra-web/`
+
 ## Status
 
 Primeira implementação mockada do redesign. Conteúdos, links, integrações e dados ainda serão conectados às fontes reais do site atual.
