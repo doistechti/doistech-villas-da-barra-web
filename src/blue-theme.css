@@ -1,0 +1,56 @@
+:root {
+  --green-950: #13384c;
+  --green-900: rgb(31, 90, 122);
+  --green-800: #286f94;
+  --green-700: #327da6;
+  --green-100: #e7f0f5;
+  --ink: #172631;
+  --muted: #687985;
+  --line: #d9e5ec;
+  --shadow: 0 18px 45px rgba(31, 90, 122, .12);
+}
+
+.site-header {
+  border-bottom-color: rgba(31, 90, 122, .10);
+}
+
+.main-nav {
+  color: #344955;
+}
+
+.hero {
+  background: radial-gradient(circle at 80% 15%, rgba(94, 161, 196, .34), transparent 30%), var(--green-900);
+}
+
+.eyebrow.light,
+.image-overlay span {
+  color: #c8e2ef;
+}
+
+h1 em {
+  color: #b8d9e8;
+}
+
+.hero-badge span {
+  color: #5b7180;
+}
+
+.card-image::after {
+  background: linear-gradient(180deg, transparent 32%, rgba(19, 56, 76, .88) 100%);
+}
+
+.news-card {
+  box-shadow: 0 10px 30px rgba(31, 90, 122, .06);
+}
+
+.partner-logo {
+  color: #6b7f8c;
+}
+
+.benefit-pills span {
+  color: #d8edf6;
+}
+
+.site-footer {
+  background: #102b3a;
+}
