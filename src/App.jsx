@@ -12,6 +12,14 @@ const news = [
 
 const partners = ['Hotel Parceiro', 'Pousada Parceira', 'Clínica Parceira', 'Serviço Local']
 
+function HeaderLogo() {
+  return (
+    <a className="header-brand" href="#topo" aria-label="AMA Villas da Barra - início">
+      <img src={`${import.meta.env.BASE_URL}ama-logo-header.webp`} alt="Associação de Moradores da Rua Aroazes - Villas da Barra" />
+    </a>
+  )
+}
+
 function Logo() {
   return (
     <a className="brand" href="#topo" aria-label="AMA Villas da Barra - início">
@@ -35,7 +43,7 @@ function App() {
     <div id="topo">
       <header className="site-header">
         <div className="container header-inner">
-          <Logo />
+          <HeaderLogo />
           <nav className="main-nav" aria-label="Navegação principal">
             <a href="#ama">A AMA</a><a href="#eventos">Comunidade</a><a href="#lazer">AMA Lazer</a><a href="#noticias">Notícias</a><a href="#contato">Contato</a>
           </nav>
