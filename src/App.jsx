@@ -53,7 +53,7 @@ function App() {
               <div className="hero-actions"><a className="button button-light" href="#institucional">Conheça a AMA</a><a className="button button-outline" href="#associe">Quero me associar</a></div>
             </div>
             <div className="hero-media">
-              <img src="/mock/hero-villas-da-barra.svg" alt="Ilustração da comunidade Villas da Barra" />
+              <img src="./mock/hero-villas-da-barra.svg" alt="Ilustração da comunidade Villas da Barra" />
               <div className="hero-badge"><strong>Villas da Barra</strong><span>Juntos construindo uma região melhor</span></div>
             </div>
           </div>
@@ -70,7 +70,7 @@ function App() {
             <SectionTitle eyebrow="Agenda comunitária" title="Próximos eventos" action="Ver todos os eventos" />
             <div className="events-layout">
               <article className="featured-event card-image">
-                <img src="/mock/eventos-comunidade.svg" alt="Ilustração de encontro comunitário" />
+                <img src="./mock/eventos-comunidade.svg" alt="Ilustração de encontro comunitário" />
                 <div className="image-overlay"><span>Comunidade</span><h3>Participe da vida do nosso bairro</h3><p>Encontros, ações e atividades que aproximam moradores e parceiros.</p></div>
               </article>
               <div className="event-list">
@@ -94,13 +94,13 @@ function App() {
         <section className="section leisure-section" id="lazer">
           <div className="container split-panel">
             <div className="split-copy"><span className="eyebrow light">Benefícios para associados</span><h2>AMA Lazer</h2><p>Um catálogo de hotéis, pousadas e futuros restaurantes parceiros com condições especiais para associados.</p><div className="benefit-pills"><span>Descontos exclusivos</span><span>Experiências especiais</span><span>Mais economia</span></div><a className="button button-light" href="#">Conhecer benefícios</a></div>
-            <div className="split-media"><img src="/mock/ama-lazer.svg" alt="Ilustração do catálogo AMA Lazer" /></div>
+            <div className="split-media"><img src="./mock/ama-lazer.svg" alt="Ilustração do catálogo AMA Lazer" /></div>
           </div>
         </section>
 
         <section className="section" id="retrospectiva">
           <div className="container retrospective-grid">
-            <div className="retrospective-media"><img src="/mock/retrospectiva-ama.svg" alt="Ilustração da retrospectiva da AMA" /></div>
+            <div className="retrospective-media"><img src="./mock/retrospectiva-ama.svg" alt="Ilustração da retrospectiva da AMA" /></div>
             <div className="retrospective-copy"><span className="eyebrow">Memória da associação</span><h2>Retrospectiva da AMA</h2><p>Acompanhe mês a mês as principais ações, conquistas e iniciativas realizadas pela associação.</p><div className="timeline"><button className="active">AGO</button><button>JUL</button><button>JUN</button><button>MAI</button></div><a className="text-link" href="#">Ver retrospectiva completa →</a></div>
           </div>
         </section>
